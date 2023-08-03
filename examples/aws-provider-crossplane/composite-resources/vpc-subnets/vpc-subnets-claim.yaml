@@ -32,6 +32,7 @@ spec:
   parameters:
     #vpc input
     vpc-Name: myapp-vpc
+    vpc-enableDnsSupport: "false"
     vpc-cidrBlock: "10.20.0.0/17"   # 32768 IPs
     vpc-amazonProvidedIpv6CidrBlock: false
     #public subnet1
